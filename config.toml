@@ -1,4 +1,4 @@
-baseURL = "http://ravindraagrawal.com/"
+baseURL = "https://ravindraagrawal.com/"
 languageCode = "en-us"
 title = "Ravi's Blog"
 port=80
