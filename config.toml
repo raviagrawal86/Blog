@@ -1,0 +1,5 @@
+baseURL = "http://ravindraagrawal.com/"
+languageCode = "en-us"
+title = "Ravi's Blog"
+port=80
+theme = "mediumish-gohugo-theme"
