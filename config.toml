@@ -17,6 +17,8 @@ disqusShortname            = "ravia"
 
 pygmentsuseclasses         = true
 
+# analytics
+googleAnalytics          = "UA-129419039-1"
 
 [permalinks]
   blog                     = "blog/:year-:month/:slug/"
@@ -75,7 +77,6 @@ pygmentsuseclasses         = true
   flickr                   = "//flickr.com/photos/129528175@N05"
   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
   
-  # analytics
-  googleAnalytics          = "UA-129419039-1"
+
     
     
