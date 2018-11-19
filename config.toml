@@ -13,6 +13,8 @@ Paginate                   = 3
 theme                      = "AllinOne"
 title                      = "Ravi's Blog"
 
+disqusShortname            = "ravia"
+
 pygmentsuseclasses         = true
 
 
