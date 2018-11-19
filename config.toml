@@ -1,5 +1,79 @@
-baseURL = "https://ravindraagrawal.com/"
-languageCode = "en-us"
-title = "Ravi's Blog"
-port=80
-theme = "mediumish-gohugo-theme"
+baseURL                    = "https://ravindraagrawal.com"
+builddrafts                = false
+languageCode               = "en-us"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
+theme                      = "AllinOne"
+title                      = "Ravi's Blog"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Blog"
+    weight                 = -120
+    identifier             = "blog"
+    url                    = "blog/"  
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -100
+    identifier             = "about"
+    url                    = "about/"  
+
+ 
+
+[params]
+  faviconfile              = "img/icon.png"               # from static/
+  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png 
+  author                   = "Ravindra Agrawal"
+  description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Hello, World!"
+  welcome_word             = "~ No Day But Today ~"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath             = "static/img/header-slides"  
+  slidesDirPathURL          = "img/header-slides"
+
+  # highlighting 
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "raviagrawal86@gmail.com"
+  github                   = "//github.com/raviagrawal86"
+  linkedin                 = "//linkedin.com/in/ravindraagrawal86"
+  twitter                  = "//twitter.com/raviagrawal86" 
+  flickr                   = "//flickr.com/photos/129528175@N05"
+  include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
+  
+  # analytics
+  googleAnalytics          = "UA-129419039-1"
+    
+    
